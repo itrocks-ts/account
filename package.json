@@ -1,0 +1,50 @@
+{
+	"author": {
+		"name": "Baptiste Pillot",
+		"email": "baptiste@pillot.fr"
+	},
+	"dependencies": {
+		"@itrocks/password": "latest",
+		"@itrocks/required": "latest",
+		"@itrocks/store": "latest"
+	},
+	"description": "Business entity representing a client or user account with login credentials",
+	"devDependencies": {
+		"typescript": "~5.6"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"exports": "./cjs/account.js",
+	"homepage": "https://it.rocks",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"routes.json",
+		"cjs/*",
+		"!*.map"
+	],
+	"keywords": [
+		"account",
+		"backend",
+		"credentials",
+		"data",
+		"entity",
+		"identity",
+		"it.rocks",
+		"login",
+		"model",
+		"password"
+	],
+	"license": "ISC",
+	"name": "@itrocks/account",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itrocks-ts/account.git"
+	},
+	"scripts": {
+		"build": "tsc -p tsconfig.json"
+	},
+	"types": "./cjs/account.d.ts",
+	"version": "0.0.1"
+}
