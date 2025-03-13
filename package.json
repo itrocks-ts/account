@@ -4,9 +4,8 @@
 		"email": "baptiste@pillot.fr"
 	},
 	"dependencies": {
-		"@itrocks/password": "latest",
-		"@itrocks/required": "latest",
-		"@itrocks/store": "latest"
+		"@itrocks/business-pack": "latest",
+		"@itrocks/password": "latest"
 	},
 	"description": "Business entity representing a client or user account with login credentials",
 	"devDependencies": {
@@ -46,5 +45,5 @@
 		"build": "tsc -p tsconfig.json"
 	},
 	"types": "./cjs/account.d.ts",
-	"version": "0.0.1"
+	"version": "0.0.2"
 }
