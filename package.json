@@ -17,9 +17,9 @@
 	"exports": "./cjs/account.js",
 	"homepage": "https://it.rocks",
 	"files": [
+		"config.yaml",
 		"LICENSE",
 		"README.md",
-		"routes.json",
 		"cjs/*",
 		"!*.map"
 	],
@@ -45,5 +45,5 @@
 		"build": "tsc -p tsconfig.json"
 	},
 	"types": "./cjs/account.d.ts",
-	"version": "0.0.3"
+	"version": "0.0.4"
 }

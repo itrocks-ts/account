@@ -1,0 +1,2 @@
+routes:
+  /account: '@itrocks/account'
