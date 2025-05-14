@@ -9,7 +9,7 @@
 	},
 	"description": "Business entity representing a client or user account with login credentials",
 	"devDependencies": {
-		"typescript": "~5.6"
+		"typescript": "~5.8"
 	},
 	"engines": {
 		"node": ">=18"
@@ -45,5 +45,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/account.d.ts",
-	"version": "0.0.5"
+	"version": "0.0.6"
 }
