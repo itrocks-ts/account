@@ -9,12 +9,11 @@
 	},
 	"description": "Business entity representing a client or user account with login credentials",
 	"devDependencies": {
-		"typescript": "~5.9"
+		"typescript": "^6.0"
 	},
 	"engines": {
 		"node": ">=18"
 	},
-	"exports": "./cjs/account.js",
 	"homepage": "https://it.rocks",
 	"files": [
 		"config.yaml",
@@ -36,6 +35,7 @@
 		"password"
 	],
 	"license": "ISC",
+	"main": "./cjs/account.js",
 	"name": "@itrocks/account",
 	"repository": {
 		"type": "git",
@@ -45,5 +45,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/account.d.ts",
-	"version": "0.1.0"
+	"version": "0.1.1"
 }

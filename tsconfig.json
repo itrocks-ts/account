@@ -1,12 +1,12 @@
 {
 	"compilerOptions": {
 		"declaration": true,
-		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"forceConsistentCasingInFileNames": true,
-		"module": "CommonJS",
-		"moduleResolution": "node",
+		"module": "commonjs",
+		"moduleResolution": "bundler",
 		"outDir": "./cjs",
+		"rootDir": "./src",
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
