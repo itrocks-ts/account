@@ -12,14 +12,15 @@
 		"typescript": "^6.0"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=24"
 	},
+	"exports": "./cjs/account.js",
 	"homepage": "https://it.rocks",
 	"files": [
 		"config.yaml",
 		"LICENSE",
 		"README.md",
-		"cjs/*",
+		"cjs",
 		"!*.map"
 	],
 	"keywords": [
@@ -35,7 +36,6 @@
 		"password"
 	],
 	"license": "ISC",
-	"main": "./cjs/account.js",
 	"name": "@itrocks/account",
 	"repository": {
 		"type": "git",
@@ -44,6 +44,5 @@
 	"scripts": {
 		"build": "tsc"
 	},
-	"types": "./cjs/account.d.ts",
-	"version": "0.1.1"
+	"version": "0.1.2"
 }
